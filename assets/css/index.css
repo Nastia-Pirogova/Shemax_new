@@ -1,18 +1,19 @@
 .header {
     padding: 12px 0;
 }
+
 .header-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header-inner__btns-right{
+.header-inner__btns-right {
     display: flex;
     gap: 20px;
 }
 
-.header-inner__btn{
+.header-inner__btn {
     padding: 10px 40px;
     text-align: center;
     font-size: 14px;
@@ -27,4 +28,339 @@
     display: flex;
     align-items: center;
     gap: 30px;
+}
+
+.category {
+    padding: 100px 0 89px 0;
+    background-color: #FFF;
+}
+
+.category-list {
+    display: flex;
+    gap: 26px;
+}
+
+.category-list__item-img {
+    border-radius: 7px;
+    width: 306px;
+    height: 303.385px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.category-list__item-title {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.profits {
+    padding: 82px 0 128px 0;
+    background-color: #FFF;
+}
+
+.profits-inner__title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0 0 20px 0;
+}
+
+.profits-inner__list {
+    display: flex;
+    gap: 46px;
+}
+
+.profits-inner__list-item {
+    border: 1px solid #E8E8E8;
+    padding: 20px 50px 17px 16px;
+}
+
+.profits-inner__list-item > svg {
+    margin: 0 0 12px 0;
+    fill: var(--violet);
+}
+
+.profits-inner__list-item-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    margin: 0 0 12px 0;
+}
+
+.profits-inner__list-item-descr {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+
+.about {
+    margin: 100px 0;
+}
+
+.about-list {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.about-list__item {
+    display: flex;
+    gap: 50px;
+}
+.about-list__item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+.about-list__item-img {
+    width: 632px;
+    height: 481px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-list__item-text {
+    padding: 126px 120px;
+}
+
+.about-list__item-title {
+    color: #777779;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0 0 30px 0;
+}
+
+.about-list__item-title-second {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+}
+
+.about-list__item-title-descr {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 30px 0;
+}
+
+.about-list__item-title-link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize
+}
+
+.faq{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+}
+
+.faq-inner__title{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.faq-inner__title-second{
+    color: #777779;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    margin: 0 0 40px 0;
+}
+
+.faq-button{
+    padding: 30px 0 60px 0;
+    border-bottom: 1px solid #D9D9D9;
+    background-color: #F5F5F5;
+    width: 100%;
+    text-align: left;
+}
+
+.faq-title{
+    color: var(--violet);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.faq-content{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    padding: 30px 0;
+    margin: -30px 0 0 0;
+    z-index: 4;
+    position: relative;
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.faq-button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faq-active{
+    display: none;
+}
+
+.faq-active-icon{
+    rotate: 180deg;
+}
+
+.footer{
+    background-color: var(--violet);
+    padding: 100px 0 13px 0;
+}
+
+.footer-inner{
+    padding: 0 0 100px 0;
+    display: flex;
+    gap: 84px;
+}
+.footer-inner__list{
+    display: flex;
+    gap: 84px;
+}
+.footer-inner-forms{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-form{
+    color: #FFFFFF;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer-form-label{
+    color: #D9D9D9;
+    font-size: 12px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-form-label > span {
+    color: var(--red);
+
+}
+
+.footer-form-input {
+    background-color: #F0F0F0;
+    padding: 15px 20px;
+    border-radius: 2px;
+    border: 1px solid #F0F0F0;
+}
+.footer-form-input:focus-visible{
+    outline: none;
+}
+.footer-form-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-inner-list-title {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 10px 0;
+}
+
+.form-privacy-policy-label{
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 300;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.form-checkbox{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid var(--red);
+    background-color: #D9D9D9;
+}
+
+.form-privacy-policy{
+    margin: 5px 0;
+}
+
+.footer-form-btn {
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 15px 40px;
+    border-radius: 2px;
+    background: #C0C0C0;
+}
+
+.footer-inner__mobile-list-link {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-inner__mobile-list1,.footer-inner__mobile-list2,.contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.contacts-list-link {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    font-size: 10px;
+    font-weight: 400;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-inner__mobile-list2 {
+    margin: 0 0 40px 0;
+}
+
+.footer-inner-list-title-3{
+    margin: 0 0 20px 0;
+}
+
+textarea.footer-form-input {
+    height: 118px;
+    resize: none;
+}
+
+.copyright{
+    border-top: 1px solid var(--red);
+}
+
+.copyright-inner{
+    padding: 13px 0 0 0 ;
+    display: flex;
+    color: #FFF;
+    justify-content: space-between;
+    align-items: center;
 }
