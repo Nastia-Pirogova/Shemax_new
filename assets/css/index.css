@@ -368,3 +368,127 @@ textarea.footer-form-input {
 .video{
     background-color: var(--violet);
 }
+
+.mobile-menu{
+    position: fixed;
+    background-color:  #FFF;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+.mobile-menu-inner_btns-top{
+    background: var(--violet)
+}
+.mobile-menu-container{
+    padding: 20px 45px;
+}
+
+.mobile-menu-container__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mobile-menu-inner-btn-close{
+    background-color: transparent;
+    padding: 5px;
+    cursor: pointer;
+}
+.mobile-menu-inner-btn-close >svg{
+    fill: #D9D9D9;
+}
+
+.mobile-menu__list-title{
+    color: #4A4E61;
+    font-size: 16px;
+    font-weight: 500;
+}
+.mobile-menu__list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px 0 0 0;
+}
+
+.mobile-menu__item-link{
+    color: #4A4E61;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mobile-menu__list-content{
+    margin: 30px 0 0 0;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 0 0 30px 0;
+}
+.mobile-menu__list-bold{
+    font-weight: 500;
+}
+
+.mobile-menu-container-scroll {
+    overflow-y: scroll;
+    height: 90vh;
+    padding: 0 50px 0 0;
+}
+
+.mobile-menu-container-scroll::-webkit-scrollbar {
+    width: 1px;
+}
+
+.mobile-menu-container-scroll::-webkit-scrollbar-thumb {
+    background-color: #6E7378;
+    border-radius: 6px;
+}
+
+.mobile-menu-container-scroll::-webkit-scrollbar-track {
+    background-color: #EFEEEE;
+}
+
+
+.mobile-menu-container-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #6E7378 var(--translucent);
+}
+
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .mobile-menu-container-scroll {
+        scrollbar-color: #6E7378 var(--translucent);
+    }
+}
+
+.mobile-menu__contacts-list-link{
+    color: #4A4E61;
+}
+
+.mobile-menu__contacts-list-link > svg{
+    fill: #4A4E61;
+}
+.mobile-menu__contacts-list-link > img{
+    fill: #4A4E61;  margin: 4px;
+}
+
+
+.backdrop{
+    background-color: rgba(44, 46, 56, 0.70);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    z-index: 500;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+.contacts-list-link >svg{
+    fill: #FFFFFF;
+}
+.mobile-menu__contacts-list-link >svg{
+    fill: #4A4E61;
+}
