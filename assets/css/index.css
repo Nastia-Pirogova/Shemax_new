@@ -364,3 +364,7 @@ textarea.footer-form-input {
     justify-content: space-between;
     align-items: center;
 }
+
+.video{
+    background-color: var(--violet);
+}
