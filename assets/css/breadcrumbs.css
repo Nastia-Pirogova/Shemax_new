@@ -1,0 +1,33 @@
+.breadcrumbs{
+    padding: 50px 0;
+    background-color: #FFF;
+}
+
+
+.breadcrumbs-inner-link-home {
+    display: inline-flex;
+}
+.breadcrumbs-inner {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #494949;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.breadcrumbs ol li:before {
+    content: '/';
+    display: inline;
+    vertical-align: baseline;
+    margin: 0 3px;
+    color: #494949;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.breadcrumbs-inner-list{
+    display: flex;
+}

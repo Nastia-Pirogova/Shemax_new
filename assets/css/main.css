@@ -1,11 +1,12 @@
 @import "global.css";
 @import "media.css";
 @import "index.css";
+@import "breadcrumbs.css";
 @import "404.css";
 @import "about_us.css";
 @import "accessories.css";
 @import "basket.css";
-@import "checkout.css";
+@import "category.css";
 @import "contact_us.css";
 @import "faq.css";
 @import "filter.css";
