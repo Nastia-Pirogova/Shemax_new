@@ -506,3 +506,113 @@ textarea.footer-form-input {
 .mobile-menu__contacts-list-link > svg {
     fill: #4A4E61;
 }
+.modal-form{
+   margin-top: 94px;
+}
+.modal-form-container {
+    border: 1px solid #D9D9D9;
+    background-color: #FFF;
+    margin: auto;
+    padding: 65px 42px 100px 42px;
+    position: relative;
+    width: 457px;
+}
+
+.modal-form-container__title {
+    color: #262B2F;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 58px 0;
+}
+
+
+input.partners-form-input {
+    color: #9B9B9B;
+    font-size: 13px;
+    font-weight: 400;
+    padding: 15px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #6E7378;
+}
+
+input.partners-form-input:focus-visible {
+    outline: none;
+}
+
+form.partners-form {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.partners-form-box {
+    display: flex;
+    flex-direction: column;
+    color: #6E7378;
+    font-size: 14px;
+    font-weight: 400;
+    gap: 5px;
+}
+
+textarea.partners-form-input {
+    border-radius: 3px;
+    border: 0.5px solid #6E7378;
+    resize: none;
+    height: 118px;
+    padding: 15px;
+}
+
+textarea.partners-form-input:focus-visible {
+    outline: none;
+}
+
+.modal-form-privacy-policy > span {
+    color: #6E7378;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+
+.partners-form-btn {
+    border-radius: 5px;
+    background-color: #D9D9D9;
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding: 20px 40px;
+}
+
+.form-privacy-policy-label {
+    cursor: pointer;
+}
+.modal-form-inner-btn-close {
+   background-color: transparent;
+    position: absolute;
+    top: 26px;
+    right: 23px;
+}
+.modal-form-inner-btn-close > svg {
+    fill: #262B2F;
+}
+.thank-you-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.thank-you-modal-container{
+    background-color: #FFF;
+    padding: 74px 35px;
+    color: #000;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    margin: auto;
+    width: 484px;
+    position: relative;
+}
