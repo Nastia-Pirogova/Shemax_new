@@ -154,3 +154,30 @@ a.category-products-btn-basket {
 .see-also-btns {
     gap: 8px;
 }
+
+
+.category-products-slider-btns{
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 0 0;
+}
+
+.slider-category-prev,
+.slider-category-next{
+    cursor: pointer;
+}
+
+.category-products-slide{
+    border-radius: 10px;
+    width: 627px;
+    object-fit: cover;   height: 500px;
+}
+
+.category-products-slider{
+    width: 627px;
+
+}
+
+.category-products-slide > img{
+    border-radius: 10px;
+}
