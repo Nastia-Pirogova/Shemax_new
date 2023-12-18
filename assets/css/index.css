@@ -2,7 +2,6 @@
     padding: 12px 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.10));
-
 }
 
 .header-inner {
@@ -15,7 +14,9 @@
     display: flex;
     gap: 20px;
 }
-
+button.header-inner__btn-menu {
+    display: contents;
+}
 .header-inner__btn {
     padding: 10px 40px;
     text-align: center;
