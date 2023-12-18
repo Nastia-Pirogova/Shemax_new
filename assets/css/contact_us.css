@@ -1,0 +1,53 @@
+.contact-us {
+    background-color:  #FFF;
+    padding: 0 0 140px 0;
+}
+
+.contact-us-form{
+    display: flex;
+    gap: 100px;
+    flex-direction: row;
+}
+
+label.footer-form-label {
+    color: #6E7378;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.contact-us-box {
+    gap: 5px;
+}
+.contact-us-inner-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 540px;
+
+}
+
+
+.contact-us-form-input {
+    border-radius: 5px;
+    border: 0.5px solid #6E7378;
+    padding: 20px 30px;
+    background-color: rgba(217, 217, 217, 0.00);
+    font-size: 16px;
+}
+
+textarea.contact-us-form-input {
+    height: 303px;
+}
+.contact-us-form-btn{
+    width: 377px;
+    padding: 20px 40px;
+}
+.contact-us-privacy-policy-label > span{
+    color: #777779;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration-line: underline;
+}
+.contact-us-inner-wrap-right{
+    gap: 20px;
+}

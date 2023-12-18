@@ -1,4 +1,4 @@
-const swiperGalleruPost = new Swiper('.category-products-slider', {
+const categoryProducts = new Swiper('.category-products-slider', {
     slidesPerView: 'auto',
     spaceBetween: 30,
     navigation: {
