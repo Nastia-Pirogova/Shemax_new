@@ -1,10 +1,454 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shemax_new</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/main.css">
 </head>
-<body>
+<body class="body">
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <a href="" class="header-inner__img">
+                <img src="images/SheMax_logo.png" alt="">
+            </a>
+            <div class="header-inner__btns-right">
+                <button class="header-inner__btn" data-modal-open-js>partners</button>
+                <ul class="header-inner__list">
+                    <li class="header-inner__list-item">
+                        <a class="header__item-link" href="">
+                            <img src="images/icons/search.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="header-inner__list-item">
+                        <a class="header__item-link" href="">
+                            <img src="images/icons/call.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="header-inner__list-item">
+                        <a class="header__item-link" href="">
+                            <img src="images/icons/bag.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <button class="header-inner__btn-menu js-open-menu" data-modal-open="">
+                    <img src="images/icons/hamburger.svg" alt="">
+                </button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="backdrop is-hidden" data-modal>
+    <div class="mobile-menu  js-menu-container">
+        <div class="mobile-menu-inner_btns-top">
+            <div class="mobile-menu-container">
+                <div class="mobile-menu-container__inner">
+                    <a href="" class="header-inner__img">
+                        <img src="images/SheMax_logo_mini.png" alt="">
+                    </a>
+                    <button class="mobile-menu-inner-btn-close js-close-menu" data-modal-close="">
+                        <svg width="15px" height="15px">
+                            <use href="images/icons.svg#icon-close"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="mobile-menu-container">
+            <div class=" mobile-menu-container-scroll">
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Dust Collector For Manicure</h4></a>
+                    <ul class="mobile-menu__list list ">
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">Style PRO SHEMAX</a>
+                        </li>
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">Smart V-PRO SHEMAX</a>
+                        </li>
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">Style XS SHEMAX</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Manicure Table Hand Rest</h4></a>
+                    <ul class="mobile-menu__list list ">
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">Hand Rest Luxury</a>
+                        </li>
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">Hand Rest Luxury Mini</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Filter</h4></a>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Accessories</h4></a>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">About Us </h4></a>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Contact us</h4></a>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">News</h4></a>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <a href=""><h4 class="mobile-menu__list-title">Connect</h4></a>
+                    <ul class="mobile-menu__list list ">
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link mobile-menu__list-bold link " href="">+353 083 00 00</a>
+                        </li>
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">shemax@gmail.com</a>
+                        </li>
+                        <li class="mobile-menu__item ">
+                            <a class="mobile-menu__item-link link " href="">shemaxservice@gmai.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mobile-menu__list-content">
+                    <h3 class="footer-inner-list-title footer-inner-list-title-3 mobile-menu__list-title">Social</h3>
+                    <ul class="contacts-list">
+                        <li class="contacts-list-item">
+                            <a href="" class="contacts-list-link mobile-menu__contacts-list-link">
+                                <svg width="30px" height="30px">
+                                    <use href="images/icons.svg#icon-facebook"></use>
+                                </svg>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+
+                        <li class="contacts-list-item">
+                            <a href="" class="contacts-list-link mobile-menu__contacts-list-link">
+                                <img width="30px" height="30px" src="images/icons/YouTube.svg" alt="">
+                                <span>YouTube</span>
+                            </a>
+                        </li>
+
+                        <li class="contacts-list-item">
+                            <a href="" class="contacts-list-link mobile-menu__contacts-list-link">
+                                <svg width="30px" height="30px">
+                                    <use href="images/icons.svg#icon-instagram"></use>
+                                </svg>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+
+                        <li class="contacts-list-item">
+                            <a href="" class="contacts-list-link mobile-menu__contacts-list-link">
+                                <svg width="30px" height="30px">
+                                    <use href="images/icons.svg#icon-twitter"></use>
+                                </svg>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+
+                        <li class="contacts-list-item">
+                            <a href="" class="contacts-list-link mobile-menu__contacts-list-link">
+                                <svg width="30px" height="30px">
+                                    <use href="images/icons.svg#icon-whatsapp"></use>
+                                </svg>
+                                <span>Whatsapp</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="backdrop is-hidden" data-modal-js>
+    <div class="modal-form">
+        <div class="modal-form-container">
+            <button class="modal-form-inner-btn-close " data-modal-close-js>
+                <svg width="15px" height="15px">
+                    <use href="images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="modal-form-container__title">Want to join the partnership?</div>
+            <form action="" class="partners-form" id="myForm">
+                <div class="partners-form-box">
+                    <input type="text" class="partners-form-input" placeholder="*First Name">
+                </div>
+                <div class="partners-form-box">
+                    <input type="text" class="partners-form-input" placeholder="*Last Name">
+                </div>
+                <div class="partners-form-box">
+                    <input type="text" class="partners-form-input" placeholder="*E-mail address">
+                </div>
+                <div class="partners-form-box">
+                    <input type="text" class="partners-form-input" placeholder="Phone">
+                </div>
+                <div>
+                    <div class="partners-form-box">
+                        <label for="" class="partners-form-label">*Enquiry </label>
+                        <textarea class="partners-form-input"></textarea>
+                    </div>
+                    <div class="form-privacy-policy ">
+                        <label name="user-policy" value="" class="form-privacy-policy-label modal-form-privacy-policy">
+                            <input type="checkbox" name="user-policy" class="form-checkbox">
+                            <span>I agree to the Terms and Conditions, Privacy Policy</span>
+                        </label>
+                    </div>
+                </div>
+                <button class="partners-form-btn ">send</button>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="backdrop is-hidden" id="myModal1">
+    <div class="thank-you-modal">
+        <div class="thank-you-modal-container">
+            <button class="modal-form-inner-btn-close " data-modal-close-js-1>
+                <svg width="15px" height="15px">
+                    <use href="images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="thank-you-modal__text">Thank you very much for your application, our manager will contact you as
+                soon as possible!
+                Sincerely, Shemax company!</p>
+        </div>
+    </div>
+</div>
+
+<main>
+    <section class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs-inner">
+                <a href="" class="breadcrumbs-inner-link-home">
+                    <svg width="15px" height="15px">
+                        <use href="images/icons.svg#icon-home"></use>
+                    </svg>
+                </a>
+                <ol itemscope="" itemtype="" class="breadcrumbs-inner-list">
+                    <li itemprop="itemListElement" itemscope="" itemtype="">
+                        <a itemprop="breadcrumbs-inner-list-item" href="">
+                            <span itemprop="name">Terms & conditions</span>
+                            <meta itemprop="position" content="1">
+                        </a>
+                    </li>
+                </ol>
+
+            </div>
+        </div>
+    </section>
+    <section class="terms-conditionst">
+        <div class="container">
+            <div class="terms-conditionst-inner">
+                <h3 class="category-products-inner__title">Terms & conditions</h3>
+                <div class="terms-conditionst-inner-wrap">
+                    <div>
+                        SheMax Company is an innovative Ukrainian company with its own production of premium electrical good for beauty salons and beauty masters. All of our innovations, technologies and developments are aimed at creating high tech, ergonomic and aesthetic equipment for the health and safety of beauty masters. Our main concern is the health of the nail technician master and his/her client! Our goal is to create the perfect 'healthy' workspace! We have developed a unique 'Air Bowl' ventilation system, which creates a 'tornado effect' inside the dust collector body and ensures that the dust is drawn in absolutely over the entire filter area and thus creates maximum protection for beauty masters and their clients. We are constantly improving and striving to create the highest quality product. Every detail, down to the smallest screw, is rigorously tested. Every stage of production and assembly is honed to perfection. Choosing a light, clean, minimalistic design, we are guided by the laws of aesthetics and ergonomics, thinking over every bend and element of the product so that the beauty master can not only work as efficiently as possible without harm to health, but also get aesthetic pleasure from the process.
+                        SHEMAX - excellence in detail.
+                        SheMax Company is an innovative Ukrainian company with its own production of premium electrical good for beauty salons and beauty masters. All of our innovations, technologies and developments are aimed at creating high tech, ergonomic and aesthetic equipment for the health and safety of beauty masters. Our main concern is the health of the nail technician master and his/her client! Our goal is to create the perfect 'healthy' workspace! We have developed a unique 'Air Bowl' ventilation system, which creates a 'tornado effect' inside the dust collector body and ensures that the dust is drawn in absolutely over the entire filter area and thus creates maximum protection for beauty masters and their clients. We are constantly improving and striving to create the highest quality product. Every detail, down to the smallest screw, is rigorously tested. Every stage of production and assembly is honed to perfection. Choosing a light, clean, minimalistic design, we are guided by the laws of aesthetics and ergonomics, thinking over every bend and element of the product so that the beauty master can not only work as efficiently as possible without harm to health, but also get aesthetic pleasure from the process.
+                        SHEMAX - excellence in detail.
+                        &nbsp;
+                        &nbsp;
+                        SheMax Company is an innovative Ukrainian company with its own production of premium electrical good for beauty salons and beauty masters. All of our innovations, technologies and developments are aimed at creating high tech, ergonomic and aesthetic equipment for the health and safety of beauty masters. Our main concern is the health of the nail technician master and his/her client! Our goal is to create the perfect 'healthy' workspace! We have developed a unique 'Air Bowl' ventilation system, which creates a 'tornado effect' inside the dust collector body and ensures that the dust is drawn in absolutely over the entire filter area and thus creates maximum protection for beauty masters and their clients. We are constantly improving and striving to create the highest quality product. Every detail, down to the smallest screw, is rigorously tested. Every stage of production and assembly is honed to perfection. Choosing a light, clean, minimalistic design, we are guided by the laws of aesthetics and ergonomics, thinking over every bend and element of the product so that the beauty master can not only work as efficiently as possible without harm to health, but also get aesthetic pleasure from the process.
+                        SHEMAX - excellence in detail.
+                        &nbsp;
+                        &nbsp;
+                        SheMax Company is an innovative Ukrainian company with its own production of premium electrical good for beauty salons and beauty masters. All of our innovations, technologies and developments are aimed at creating high tech, ergonomic and aesthetic equipment for the health and safety of beauty masters. Our main concern is the health of the nail technician master and his/her client! Our goal is to create the perfect 'healthy' workspace! We have developed a unique 'Air Bowl' ventilation system, which creates a 'tornado effect' inside the dust collector body and ensures that the dust is drawn in absolutely over the entire filter area and thus creates maximum protection for beauty masters and their clients. We are constantly improving and striving to create the highest quality product. Every detail, down to the smallest screw, is rigorously tested. Every stage of production and assembly is honed to perfection. Choosing a light, clean, minimalistic design, we are guided by the laws of aesthetics and ergonomics, thinking over every bend and element of the product so that the beauty master can not only work as efficiently as possible without harm to health, but also get aesthetic pleasure from the process.
+                        SHEMAX - excellence in detail.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-inner">
+            <div class="footer-inner-forms">
+                <h3 class="footer-inner-list-title">To partners</h3>
+                <form action="" class="footer-form">
+                    <div class="footer-form-box">
+                        <label for="" class="footer-form-label">*First Name</label>
+                        <input type="text" class="footer-form-input">
+                    </div>
+                    <div class="footer-form-box">
+                        <label for="" class="footer-form-label">*Last Name</label>
+                        <input type="text" class="footer-form-input">
+                    </div>
+                    <div class="footer-form-box">
+                        <label for="" class="footer-form-label">*E-mail address</label>
+                        <input type="text" class="footer-form-input">
+                    </div>
+                    <div class="footer-form-box">
+                        <label for="" class="footer-form-label">Phone<span>*Please fill in these fields.</span></label>
+                        <input type="text" class="footer-form-input">
+                    </div>
+                    <div class="footer-form-box">
+                        <label for="" class="footer-form-label">*Enquiry </label>
+                        <textarea class="footer-form-input"></textarea>
+                    </div>
+                    <div class="form-privacy-policy">
+                        <label name="user-policy" value="" class="form-privacy-policy-label">
+                            <input type="checkbox" name="user-policy" class="form-checkbox">
+                            <span>I agree to the Terms and Conditions, Privacy Policy</span>
+                        </label>
+                    </div>
+                    <button class="footer-form-btn ">send</button>
+                </form>
+            </div>
+            <div class="footer-inner__list">
+                <ul class="footer-inner__mobile-list1">
+                    <h3 class="footer-inner-list-title">Service</h3>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Dust Collector For Manicure</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Manicure Table Hand Rest</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">filter</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Accessories</a>
+                    </li>
+                </ul>
+                <ul class="footer-inner__mobile-list2">
+                    <h3 class="footer-inner-list-title">Additional Information</h3>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">About Us </a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Contact Us </a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">News</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Privacy policy</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Terms & conditions</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">Sitemap</a>
+                    </li>
+                    <li class="footer-inner__mobile-list-item">
+                        <a href="" class="footer-inner__mobile-list-link">FAQ</a>
+                    </li>
+                </ul>
+                <div>
+                    <ul class="footer-inner__mobile-list2">
+                        <h3 class="footer-inner-list-title">Connect</h3>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">+353 083 00 00</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">Contact Us </a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">News</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">Privacy policy</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">Terms & conditions</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">Sitemap</a>
+                        </li>
+                        <li class="footer-inner__mobile-list-item">
+                            <a href="" class="footer-inner__mobile-list-link">FAQ</a>
+                        </li>
+                    </ul>
+                    <div>
+                        <h3 class="footer-inner-list-title footer-inner-list-title-3">Social</h3>
+                        <ul class="contacts-list" id="contact">
+                            <li class="contacts-list-item">
+                                <a href="" class="contacts-list-link">
+                                    <svg width="30px" height="30px">
+                                        <use href="images/icons.svg#icon-facebook"></use>
+                                    </svg>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+
+                            <li class="contacts-list-item">
+                                <a href="" class="contacts-list-link">
+                                    <svg width="30px" height="30px">
+                                        <use href="images/icons.svg#icon-youtube"></use>
+                                    </svg>
+                                    <span>YouTube</span>
+                                </a>
+                            </li>
+
+                            <li class="contacts-list-item">
+                                <a href="" class="contacts-list-link">
+                                    <svg width="30px" height="30px">
+                                        <use href="images/icons.svg#icon-instagram"></use>
+                                    </svg>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+
+                            <li class="contacts-list-item">
+                                <a href="" class="contacts-list-link">
+                                    <svg width="30px" height="30px">
+                                        <use href="images/icons.svg#icon-twitter"></use>
+                                    </svg>
+                                    <span>Twitter</span>
+                                </a>
+                            </li>
+
+                            <li class="contacts-list-item">
+                                <a href="" class="contacts-list-link">
+                                    <svg width="30px" height="30px">
+                                        <use href="images/icons.svg#icon-whatsapp"></use>
+                                    </svg>
+                                    <span>Whatsapp</span>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="copyright">
+        <div class="container">
+            <div class="copyright-inner">
+                <a href="" class="header-inner__img">
+                    <img src="images/SheMax_logo_mini.png" alt="">
+                </a>
+                <span>© SHEMAX 2023. All rights reserved.</span></div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+<script type="module" src="js/mobile-menu.js"></script>
+<script type="module" src="js/modal-partners.js"></script>
+<script type="module" src="js/faq.js"></script>
+<!--<script type="module" src="js/services-swiper.js"></script>-->
+<!--<script type="module" src="js/reviews-swiper.js"></script>-->
+
 
 </body>
 </html>
