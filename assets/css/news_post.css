@@ -1,0 +1,30 @@
+.news-post{
+    background-color: #FFFFFF;
+    padding: 0 0 100px 0;
+}
+.news-post-wrap__img {
+    height: 607px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0 0 70px 0;
+    border-radius: 8px;
+}
+
+.news-post-inner-wrap > div{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.news-post-inner-wrap-images{
+display: flex;
+gap: 10px;
+}
+
+.news-post-wrap__img-mini {
+    width: 100%;
+}
+
+.news-post-inner-wrap-images{
+    margin: 70px 0;
+}
