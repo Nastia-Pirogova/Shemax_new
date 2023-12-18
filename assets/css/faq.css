@@ -1,0 +1,15 @@
+.see-more{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+span.faq-icon {
+    display: flex;
+    align-items: center;
+}
