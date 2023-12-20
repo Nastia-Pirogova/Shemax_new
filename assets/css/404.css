@@ -23,6 +23,8 @@
     text-transform: capitalize;
     margin: 50px 0;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #4A4E61, -1px 1px 0 #4A4E61, 1px 1px 0 #4A4E61;
+    display: flex;
+    justify-content: center;
 }
 
 .dont-page-link {
