@@ -1,3 +1,5 @@
+
+
 .header {
     padding: 12px 0;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.10);
@@ -44,7 +46,7 @@ button.header-inner__btn-menu {
 
 .category-list {
     display: flex;
-    gap: 26px;
+    gap: 25px;
 }
 
 .category-list__item-img {
@@ -64,6 +66,7 @@ button.header-inner__btn-menu {
 .profits {
     padding: 82px 0 128px 0;
     background-color: #FFF;
+    margin: 0;
 }
 
 .profits-inner__title {
@@ -622,4 +625,36 @@ textarea.partners-form-input:focus-visible {
     margin: auto;
     width: 484px;
     position: relative;
+}
+
+
+@media screen and (min-width: 320px) {
+    /*.container {*/
+    /*    padding: 0 10px;*/
+    /*    margin: auto;*/
+    /*    width: 100%;*/
+    /*    position: relative;*/
+    /*}*/
+    button.header-inner__btn {
+        display: none;
+    }
+    .header-inner__list {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .category-list {
+        flex-wrap: wrap;
+    }
+    .profits {
+        margin: 50px 0;
+    }
+    button.header-inner__btn {
+        display: block;
+    }
+    .header-inner__list {
+        display: flex;
+    }
 }
