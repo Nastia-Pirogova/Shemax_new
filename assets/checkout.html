@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Shemax_new</title>
+    <title>Checkout</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
@@ -224,7 +224,7 @@
     </div>
 </div>
 <main>
-    <section class="breadcrumbs">
+    <section class="breadcrumbs breadcrumbs-background">
         <div class="container">
             <div class="breadcrumbs-inner">
                 <a href="" class="breadcrumbs-inner-link-home">
@@ -235,12 +235,256 @@
                 <ol itemscope="" itemtype="" class="breadcrumbs-inner-list">
                     <li itemprop="itemListElement" itemscope="" itemtype="">
                         <a itemprop="breadcrumbs-inner-list-item" href="">
-                            <span itemprop="name">About Us </span>
+                            <span itemprop="name">Shopping Cart</span>
+                            <meta itemprop="position" content="1">
+                        </a>
+                    </li>
+                    <li itemprop="itemListElement" itemscope="" itemtype="">
+                        <a itemprop="breadcrumbs-inner-list-item" href="">
+                            <span itemprop="name">Checkout</span>
                             <meta itemprop="position" content="1">
                         </a>
                     </li>
                 </ol>
 
+            </div>
+        </div>
+    </section>
+
+    <section class="checkout">
+        <div class="container checkout__container">
+            <div class="checkout__column-1">
+                <h1 class="checkout__title">Checkout</h1>
+                <form action="" class="checkout__form">
+                    <div class="checkout__form-your-details">
+                        <p class="checkout__form-title"><span class="checkout__form-num">1</span>
+                            Your details</p>
+                        <p class="checkout__form-descr">
+                            Please enter your details.
+                        </p>
+                        <p class="checkout__form-descr-fields">
+                            * Required fields
+                        </p>
+                        <div class="checkout__form-field-first checkout__form-field">
+                            <label class="checkout__form-your-details-field" for="email">Email address*</label>
+                            <input class="checkout__form-your-details-field-input" type="email" id="email" name="email">
+                            <p class="checkout__form-your-details-field-descr">We’ll use this information to send you an
+                                email notification.</p>
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="name">First name*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="name" name="name">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="last-name">Last name*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="last-name"
+                                   name="last-name">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="mobile-number">Mobile number*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="mobile-number"
+                                   name="mobile-number">
+                            <p class="checkout__form-your-details-field-descr">Sharing your phone number allows us to
+                                send you delivery updates and order information. Don’t worry, we’ll only call when
+                                necessary. </p>
+                        </div>
+                    </div>
+
+                    <div class="checkout__form-delivery">
+                        <p class="checkout__form-title"><span class="checkout__form-num">2</span>
+                            Delivery</p>
+                        <p class="checkout__form-descr">
+                            Delivery Address </p>
+                        <p class="checkout__form-descr-fields">
+                            * Required fields
+                        </p>
+                        <div class="checkout__form-field-first checkout__form-field">
+                            <label class="checkout__form-your-details-field" for="email">Title*</label>
+                            <input class="checkout__form-your-details-field-input" type="email" id="email" name="email">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="name-del">First name*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="name-del"
+                                   name="name-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="last-name-del">Last name*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="last-name-del"
+                                   name="last-name-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="country-del">Country*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="country-del"
+                                   name="country-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="town-city-del">Town city*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="town-city-del"
+                                   name="town-city-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="country-del">Country*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="country-del"
+                                   name="country-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="address-line-1-del">Address line
+                                1*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="address-line-1-del"
+                                   name="address-line-1-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="address-line-2-del">Address line
+                                2*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="address-line-2-del"
+                                   name="address-line-1-del">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="eircode-del">Eircode*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="eircode-del"
+                                   name="eircode-del">
+                        </div>
+                    </div>
+
+                    <div class="checkout__form-payment">
+                        <p class="checkout__form-title"><span class="checkout__form-num">3</span>
+                            Payment</p>
+                        <p class="checkout__form-descr">
+                            Please choose a payment option:</p>
+                        <div class="checkout-form-payment-block">
+                            <p class="checkout-form-payment-block-title">Pay Now</p>
+                            <div class="checkout-form-payment-block-variable">
+                                <div class="checkout-form-payment-block-variable-inner">
+                                    <img class="checkout-form-payment-block-variable-inner-img" src="/assets/images/credit-card.svg" alt="">
+                                    <div class="checkout-form-payment-block-variable-text">
+                                        <p class="checkout-form-payment-block-variable-text-1">Credit/ Debit Card</p>
+                                        <p class="checkout-form-payment-block-variable-text-2">Visa/Mastercard/Maestro</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field">
+                            <label class="checkout__form-your-details-field" for="name-on-card-payment">Name on card*</label>
+                            <input class="checkout__form-your-details-field-input" type="name-on-card-payment" id="name-on-card-payment" name="email">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="card-num-payment">Card number*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="card-num-payment" name="card-num-payment">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <label class="checkout__form-your-details-field" for="last-name-payment">Last name*</label>
+                            <input class="checkout__form-your-details-field-input" type="text" id="last-name-payment" name="last-name-payment">
+                        </div>
+                    </div>
+                </form>
+                <a class="checkout__back-to-shopping-div">
+                    <img src="/assets/images/back-arrow.svg" alt="" class="checkout__back-to-shopping-arrow-img">
+                    <p class="checkout__back-to-shopping">Continue shopping</p>
+                </a>
+            </div>
+            <div class="checkout__column-2">
+                <a class="checkout__column-2-title">
+                    <h2 class="checkout__order-summary">Order summary</h2>
+                    <span class="checkout__number-of-items">3 items</span>
+                </a>
+                <div class="checkout__basket-items">
+                    <div class="checkout__basket-items-inner">
+                        <ul class="checkout__items-list">
+                            <li class="checkout__item">
+                                <img src="/assets/images/checkout-item-3.png" alt="Purchase 1"
+                                     class="checkout__item-img">
+                                <div class="checkout__item-info">
+                                    <h3 class="checkout__item-title">
+                                        SheMax LUXURY Total black - manicure hand stand
+                                    </h3>
+                                    <div class="checkout__item-price-and-descr">
+                                        <div class="checkout__item-price">
+                                            <span class="checkout__item-price-text">Price</span>
+                                            <span class="checkout__item-price-value">€70</span>
+                                        </div>
+                                        <p class="checkout__item-price-descr price-descr">Price includes VAT</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="checkout__item">
+                                <img src="/assets/images/checkout-item-1.png" alt="Purchase 2"
+                                     class="checkout__item-img">
+                                <div class="checkout__item-info">
+                                    <h3 class="checkout__item-title">
+                                        SheMax Logo Shirt
+                                    </h3>
+                                    <div class="checkout__item-price-and-descr">
+                                        <div class="checkout__item-price">
+                                            <span class="checkout__item-price-text">Price</span>
+                                            <span class="checkout__item-price-value">€20</span>
+                                        </div>
+                                        <p class="checkout__item-price-descr price-descr">Price includes VAT</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="checkout__item">
+                                <img src="/assets/images/checkout-item-2.png" alt="Purchase 3"
+                                     class="checkout__item-img">
+                                <div class="checkout__item-info">
+                                    <h3 class="checkout__item-title">
+                                        Style XS SHEMAX White
+                                    </h3>
+                                    <div class="checkout__item-price-and-descr ">
+                                        <div class="checkout__item-price">
+                                            <span class="checkout__item-price-text">Price</span>
+                                            <span class="checkout__item-price-value">€20</span>
+                                        </div>
+                                        <p class="checkout__item-price-descr price-descr">Price includes VAT</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="checkout__quantity">
+                            <span class="checkout__quantity-text">Quantity</span>
+                            <span class="checkout__quantity-value">3</span>
+                        </div>
+                        <div class="checkout__subtotal">
+                            <span class="checkout__subtotal-text">Subtotal</span>
+                            <span class="checkout__subtotal-value">€380</span>
+                        </div>
+                        <p class="checkout__subtotal-descr price-descr">Price includes VAT</p>
+                    </div>
+
+                </div>
+                <div class="checkout__edit-basket">
+                    <a href="" class="checkout__edit-basket-link">
+                        <p class="checkout__edit-basket-text">Edit basket</p>
+                    </a>
+                </div>
+                <div class="checkout__delivery-details">
+                    <p class="checkout__delivery-details-title">
+                        Delivery details
+                    </p>
+                    <p class="checkout__delivery-details-descr">Kristin Donegal</p>
+                    <p class="checkout__delivery-details-descr">Wexford</p>
+                    <p class="checkout__delivery-details-descr">D14K667</p>
+                    <p class="checkout__delivery-details-descr">Dublin</p>
+                    <p class="checkout__delivery-details-descr">Ireland</p>
+                </div>
+                <div class="checkout__edit-delivery-details">
+                    <button href="" class="checkout__edit-delivery-details-btn">
+                        <p class="checkout__edit-delivery-details-text">Edit delivery details</p>
+                    </button>
+                </div>
+                <div class="checkout__total">
+                    <div class="checkout__total-delivery">
+                        <p class="checkout__total-delivery-text">Delivery</p>
+                        <p class="checkout__total-delivery-value">Free delivery</p>
+                    </div>
+                    <div class="checkout__total-price">
+                        <p class="checkout__total-price-text">Total</p>
+                        <p class="checkout__total-price-value">€380</p>
+                    </div>
+                    <p class="checkout__total-price-descr price-descr">Price includes VAT</p>
+
+                </div>
             </div>
         </div>
     </section>
