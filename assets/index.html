@@ -12,6 +12,11 @@
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/main.css">
+    <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
 </head>
 <body class="body">
 <header class="header">
@@ -47,7 +52,7 @@
     </div>
 </header>
 <div class="backdrop is-hidden" data-modal>
-    <div class="mobile-menu  js-menu-container" >
+    <div class="mobile-menu  js-menu-container">
         <div class="mobile-menu-inner_btns-top">
             <div class="mobile-menu-container">
                 <div class="mobile-menu-container__inner">
@@ -171,8 +176,8 @@
     </div>
 </div>
 <div class="backdrop is-hidden" data-modal-js>
-    <div class="modal-form" >
-        <div class="modal-form-container" >
+    <div class="modal-form">
+        <div class="modal-form-container">
             <button class="modal-form-inner-btn-close " data-modal-close-js>
                 <svg width="15px" height="15px">
                     <use href="images/icons.svg#icon-close"></use>
@@ -230,28 +235,42 @@
                     type="video/mp4">
         </video>
     </section>
-<!--    <section class="category" id="category">-->
-<!--        <div class="container">-->
-<!--            <ul class="category-list list">-->
-<!--                <li class="category-list__item"><a href="">-->
-<!--                    <img src="images/products-1.jpg" alt="" class="category-list__item-img">-->
-<!--                    <h2 class="category-list__item-title">Dust Collector For Manicure</h2></a>-->
-<!--                </li>-->
-<!--                <li class="category-list__item"><a href="">-->
-<!--                    <img src="images/products-2.jpg" alt="" class="category-list__item-img">-->
-<!--                    <h2 class="category-list__item-title">Manicure Table Hand Rest</h2></a>-->
-<!--                </li>-->
-<!--                <li class="category-list__item"><a href="">-->
-<!--                    <img src="images/products-3.jpg" alt="" class="category-list__item-img">-->
-<!--                    <h2 class="category-list__item-title">filter</h2></a>-->
-<!--                </li>-->
-<!--                <li class="category-list__item"><a href="">-->
-<!--                    <img src="images/products-4.jpg" alt="" class="category-list__item-img">-->
-<!--                    <h2 class="category-list__item-title">Accessories</h2></a>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </section>-->
+    <section class="category" id="category">
+        <div class="container">
+            <div class="swiper swiper-category">
+                <ul class="category-list list swiper-wrapper">
+                    <li class="category-list__item swiper-slide"><a href="">
+                        <img src="images/products-1.jpg" alt="" class="category-list__item-img">
+                        <h2 class="category-list__item-title">Dust Collector For Manicure</h2></a>
+                    </li>
+                    <li class="category-list__item swiper-slide"><a href="">
+                        <img src="images/products-2.jpg" alt="" class="category-list__item-img">
+                        <h2 class="category-list__item-title">Manicure Table Hand Rest</h2></a>
+                    </li>
+                    <li class="category-list__item swiper-slide"><a href="">
+                        <img src="images/products-3.jpg" alt="" class="category-list__item-img">
+                        <h2 class="category-list__item-title">filter</h2></a>
+                    </li>
+                    <li class="category-list__item swiper-slide"><a href="">
+                        <img src="images/products-4.jpg" alt="" class="category-list__item-img">
+                        <h2 class="category-list__item-title">Accessories</h2></a>
+                    </li>
+                </ul>
+                <div class="category-swiper-buttons">
+                    <div class=" swiper-button-prev-category">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <path d="M8.33008 11.9983L14.3709 18.0083L15.7922 16.5943L11.1686 11.9943L15.7922 7.39428L14.3709 5.98828L8.33008 11.9983Z" fill="#6E7378"/>
+                        </svg>
+                    </div>
+                    <div class=" swiper-button-next-category">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <path d="M16.6702 11.9983L10.6283 5.98828L9.20703 7.40228L13.8307 12.0023L9.20703 16.5953L10.6283 18.0093L16.6702 11.9983Z" fill="#6E7378"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section class="profits" id="">
         <div class="container">
             <div class="profits-inner">
@@ -621,6 +640,7 @@
 
 <script type="module" src="js/mobile-menu.js"></script>
 <script type="module" src="js/modal-partners.js"></script>
+<script type="module" src="js/filter.js"></script>
 <script type="module" src="js/faq.js"></script>
 <script type="module" src="js/services-swiper.js"></script>
 <!--<script type="module" src="js/reviews-swiper.js"></script>-->
