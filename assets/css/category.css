@@ -181,3 +181,91 @@ a.category-products-btn-basket {
 .category-products-slide > img{
     border-radius: 10px;
 }
+
+@media screen and (min-width: 320px) {
+    .category-products-inner__title {
+        line-height: normal !important;
+    }
+    .category-products-inner__list-item {
+        width: 100%;
+    }
+    .category-products-img {
+        width: 100%;
+        height: 278px;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+    .category-products-btns {
+        display: flex;
+        gap: 13px;
+        flex-direction: column;
+    }
+    .category-products-btn-basket {
+        width: 100% !important;
+    }
+    .category-products-btn-basket.see-also-btn-basket {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .category-products-img {
+        width: 300px;
+        height: 278px;
+    }
+    .category-products-inner__list-item {
+        width: 300px !important;
+    }
+    .category-products-inner__list {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .container-category-products {
+        padding: 0 67px;
+    }
+    .category-products-inner__list-item.swiper-slide {
+        margin-right: 32px !important;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .container-category-products {
+        padding: 0 67px;
+    }
+    .category-products-inner__list-item.swiper-slide {
+        width: 405px !important;
+    }
+    .category-products-img {
+        width: 405px;
+        height: 376px;
+        border-radius: 10px;
+    }
+    .category-products-btns {
+        flex-direction: row;
+    }
+    .category-products-btn-basket {
+        width: 228px !important;
+    }
+    .category-products-swiper-buttons{
+        display: flex;
+    }
+    .see-also-btn-basket {
+        width: 174px !important;
+    }
+    .swiper-slide.see-also-inner__list-item {
+        width: 306px !important;
+    }
+    .container-category-products {
+        padding: 0 70px;
+    }
+    .see-also-inner__list-item.swiper-slide {
+        margin-right: 25px !important;
+    }
+
+    .see-also-img{
+        width: 306px;
+        height: 309px;
+    }
+}
