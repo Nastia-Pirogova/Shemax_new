@@ -37,21 +37,21 @@
 
 .checkout__form-your-details{
     margin-top: 50px;
-    padding: 58px 0 97px 40px;
+    padding: 58px 40px 97px 40px;
     border: 1px solid #DFDFDF;
     background:  #F9F9F9;
 }
 
 .checkout__form-delivery{
     margin-top: 50px;
-    padding: 67px 0 150px 40px;
+    padding: 67px 40px 150px 40px;
     border: 1px solid #DFDFDF;
     background:  #F9F9F9;
 }
 
 .checkout__form-payment{
     margin-top: 50px;
-    padding: 78px 0 98px 40px;
+    padding: 78px 40px 98px 40px;
     border: 1px solid #DFDFDF;
     background:  #F9F9F9;
 }
@@ -185,6 +185,134 @@
     line-height: 24px;
 }
 
+.checkout__form-card-info{
+    margin-top: 10px;
+    width: 230px;
+}
+
+.checkout__form-card-info-mm-and-yy{
+    display: flex;
+}
+
+.checkout__total{
+    width: 425px;
+    margin-top: 100px;
+}
+
+.checkout__form-card-info-mm{
+    margin-right: 10px;
+}
+
+.checkout__form-card-input{
+    width: 110px;
+}
+
+
+.checkout__form-total-delivery-title{
+
+}
+
+.checkout__form-total-delivery-title{
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.checkout__form-total-delivery-value{
+    color: #494949;
+    text-align: right;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.checkout__form-total-price{
+    margin-top: 20px;
+
+}
+
+.checkout__form-total-price-title{
+
+    color: #494949;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.checkout__form-total-price-value{
+    color: #494949;
+    text-align: right;
+    font-family: Montserrat,sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; /* 100% */
+    text-transform: capitalize;
+}
+
+.checkout__form-total-price-descr{
+    margin-top: 10px;
+    text-align: right;
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.checkout__form-total-terms{
+    margin-top: 44px;
+    border-top: 1px solid #DFDFDF;
+    padding-top: 44px;
+}
+
+.checkout__form-total-terms-span{
+    text-underline: none;
+    width: 100%;
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.checkout__form-total-terms-input-a{
+    text-decoration: underline;
+}
+
+.checkout__form-total-submit{
+    border-radius: 5px;
+    background: #6E7378;
+    color: #F4F4F4;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 40px;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.checkout__form-total-submit-descr{
+    margin-top: 40px;
+    color: #494949;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
 
 
 
@@ -463,4 +591,28 @@
     font-weight: 500;
     line-height: 24px;
 }
+
+.checkout__form-total{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+}
+
+.checkout__form-total-right{
+    width: 420px;
+}
+
+.checkout__form-total-delivery{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__form-total-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 

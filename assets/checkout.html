@@ -355,39 +355,105 @@
                             <p class="checkout-form-payment-block-title">Pay Now</p>
                             <div class="checkout-form-payment-block-variable">
                                 <div class="checkout-form-payment-block-variable-inner">
-                                    <img class="checkout-form-payment-block-variable-inner-img" src="/assets/images/credit-card.svg" alt="">
+                                    <img class="checkout-form-payment-block-variable-inner-img"
+                                         src="/assets/images/credit-card.svg" alt="">
                                     <div class="checkout-form-payment-block-variable-text">
                                         <p class="checkout-form-payment-block-variable-text-1">Credit/ Debit Card</p>
-                                        <p class="checkout-form-payment-block-variable-text-2">Visa/Mastercard/Maestro</p>
+                                        <p class="checkout-form-payment-block-variable-text-2">
+                                            Visa/Mastercard/Maestro</p>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div class="checkout__form-field-any checkout__form-field">
-                            <label class="checkout__form-your-details-field" for="name-on-card-payment">Name on card*</label>
-                            <input class="checkout__form-your-details-field-input" type="name-on-card-payment" id="name-on-card-payment" name="email">
+                            <label class="checkout__form-your-details-field" for="name-on-card-payment">Name on
+                                card*</label>
+                            <input class="checkout__form-your-details-field-input" type="name-on-card-payment"
+                                   id="name-on-card-payment" name="email">
                         </div>
                         <div class="checkout__form-field-any checkout__form-field ">
                             <label class="checkout__form-your-details-field" for="card-num-payment">Card number*</label>
-                            <input class="checkout__form-your-details-field-input" type="text" id="card-num-payment" name="card-num-payment">
+                            <input class="checkout__form-your-details-field-input" type="text" id="card-num-payment"
+                                   name="card-num-payment">
                         </div>
                         <div class="checkout__form-field-any checkout__form-field ">
                             <label class="checkout__form-your-details-field" for="last-name-payment">Last name*</label>
-                            <input class="checkout__form-your-details-field-input" type="text" id="last-name-payment" name="last-name-payment">
+                            <input class="checkout__form-your-details-field-input" type="text" id="last-name-payment"
+                                   name="last-name-payment">
+                        </div>
+                        <div class="checkout__form-field-any checkout__form-field ">
+                            <p class="checkout__form-your-details-field">Expiry date*</p>
+                            <div class="checkout__form-card-info">
+                                <div class="checkout__form-card-info-mm-and-yy">
+                                    <div class="checkout__form-card-info-mm">
+                                        <label class="checkout__form-your-details-field " for="mm-payment">MM*</label>
+                                        <input class="checkout__form-your-details-field-input checkout__form-card-input"
+                                               type="text"
+                                               id="mm-payment"
+                                               name="mm-payment">
+                                    </div>
+                                    <div class="checkout__form-card-info-yy">
+                                        <label class="checkout__form-your-details-field" for="yy-payment">YY*</label>
+                                        <input class="checkout__form-your-details-field-input checkout__form-card-input"
+                                               type="text"
+                                               id="yy-payment"
+                                               name="yy-payment">
+                                    </div>
+                                </div>
+                                <div class="checkout__form-field-any checkout__form-field ">
+                                    <label class="checkout__form-your-details-field" for="CVV-payment">CVV*</label>
+                                    <input class="checkout__form-your-details-field-input" type="text" id="CVV-payment"
+                                           name="CVV-payment">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout__form-total">
+                            <div class="checkout__form-total-right">
+                                <div class="checkout__form-total-delivery">
+                                    <p class="checkout__form-total-delivery-title">Standard delivery</p>
+                                    <p class="checkout__form-total-delivery-value">Free</p>
+                                </div>
+                                <div class="checkout__form-total-price">
+                                    <p class="checkout__form-total-price-title">Total</p>
+                                    <p class="checkout__form-total-price-value">€380</p>
+                                </div>
+                                <p class="checkout__form-total-price-descr">
+                                    Price includes VAT
+                                </p>
+
+                                <div class="checkout__form-total-terms ">
+                                    <label name="user-terms" value="" class="form-privacy-policy-label contact-us-privacy-policy-label">
+                                        <input type="checkbox" name="user-terms" class="form-checkbox ">
+                                        <span class="checkout__form-total-terms-span">I have read and agree to the
+                                            <a href="" class="checkout__form-total-terms-input-a">Terms and Conditions</a>
+                                        </span>
+                                    </label>
+                                </div>
+
+                                <button class="checkout__form-total-submit">
+                                    Pay now
+                                </button>
+                                <p class="checkout__form-total-submit-descr">For more information about  how we handle your personal information, please read our
+                                    <a class="checkout__form-total-terms-input-span">Privacy Policy.</a></p>
+
+
+                            </div>
                         </div>
                     </div>
+
                 </form>
                 <a class="checkout__back-to-shopping-div">
-                    <img src="/assets/images/back-arrow.svg" alt="" class="checkout__back-to-shopping-arrow-img">
-                    <p class="checkout__back-to-shopping">Continue shopping</p>
+                    <img src="/assets/images/back-arrow.svg" alt="back-arrow"
+                         class="checkout__back-to-shopping-arrow-img">
+                    <span class="checkout__back-to-shopping">Continue shopping</span>
                 </a>
             </div>
             <div class="checkout__column-2">
-                <a class="checkout__column-2-title">
+                <div class="checkout__column-2-title">
                     <h2 class="checkout__order-summary">Order summary</h2>
                     <span class="checkout__number-of-items">3 items</span>
-                </a>
+                </div>
                 <div class="checkout__basket-items">
                     <div class="checkout__basket-items-inner">
                         <ul class="checkout__items-list">
@@ -455,7 +521,7 @@
                 </div>
                 <div class="checkout__edit-basket">
                     <a href="" class="checkout__edit-basket-link">
-                        <p class="checkout__edit-basket-text">Edit basket</p>
+                        <span class="checkout__edit-basket-text">Edit basket</span>
                     </a>
                 </div>
                 <div class="checkout__delivery-details">
