@@ -1,4 +1,4 @@
-const swiper = new Swiper('.swiper-2', {
+const swiper = new Swiper('.                    &nbsp;<div class="swiper swiper-news-post">\n', {
     loop: true,
     navigation: {
         nextEl: '.right-button-reviews',

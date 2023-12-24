@@ -18,7 +18,7 @@
 
 .news-post-inner-wrap-images{
 display: flex;
-gap: 10px;
+/*gap: 10px;*/
 }
 
 .news-post-wrap__img-mini {
@@ -27,4 +27,31 @@ gap: 10px;
 
 .news-post-inner-wrap-images{
     margin: 70px 0;
+}
+
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #777779;
+}
+
+@media screen and (min-width: 320px) {
+    .news-post-wrap__img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 0 30px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .news-post-wrap__img {
+        height: 607px;
+        width: 100%;
+        object-fit: cover;
+        margin: 0 0 70px 0;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
 }
