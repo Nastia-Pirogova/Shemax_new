@@ -187,4 +187,7 @@ button.plus.plus-btn,.minus.minus-btn {
         gap: 20px;
         flex-direction: row;
     }
+    .characteristic {
+        padding: 50px 0;
+    }
 }
