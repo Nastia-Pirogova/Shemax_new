@@ -644,6 +644,11 @@ textarea.partners-form-input:focus-visible {
 .category-products-inner__title {
     padding: 50px 0 0 0;
 }
+
+.category-list__item-title:hover {
+    text-decoration-line: underline;
+}
+
 @media screen and (min-width: 320px) {
     .header-inner__list-item-close{
         display: none;

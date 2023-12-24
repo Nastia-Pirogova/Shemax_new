@@ -16,14 +16,28 @@
     function toggleModal() {
         refs.modal.classList.toggle("is-hidden");
 
+        const isModalOpen = !refs.modal.classList.contains("is-hidden");
+
+        if (isModalOpen) {
+            disableScroll();
+        } else {
+            enableScroll();
+        }
+    }
+
+    function disableScroll() {
+        // Запретить прокрутку при открытии модального окна
+        document.body.style.overflow = 'hidden';
+    }
+
+    function enableScroll() {
+        // Разрешить прокрутку при закрытии модального окна
+        document.body.style.overflow = '';
     }
 
     function handleSubmit(e) {
         e.preventDefault();
-        // toggleModal();
         refs.modal1.classList.toggle("is-hidden");
-
-
 
         setTimeout(() => {
             toggleModal();
@@ -32,5 +46,6 @@
 
     function closeThank() {
         refs.modal1.classList.toggle("is-hidden");
+        toggleModal();
     }
 })();
