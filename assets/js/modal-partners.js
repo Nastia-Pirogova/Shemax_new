@@ -26,12 +26,10 @@
     }
 
     function disableScroll() {
-        // Запретить прокрутку при открытии модального окна
         document.body.style.overflow = 'hidden';
     }
 
     function enableScroll() {
-        // Разрешить прокрутку при закрытии модального окна
         document.body.style.overflow = '';
     }
 
