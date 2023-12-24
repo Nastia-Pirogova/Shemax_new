@@ -37,3 +37,33 @@
     padding: 20px 40px;
     display: inline-block;
 }
+
+
+
+
+@media screen and (min-width: 320px) {
+    .dont-page-number >img{
+        width: 100%;
+    }
+    .dont-page {
+        padding: 80px 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .dont-page-number >img {
+        width: 450px;
+    }
+    .dont-page {
+        padding: 150px 0;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .dont-page-number >img {
+        width: 510px;
+    }
+    .dont-page {
+        padding: 200px 0;
+    }
+}

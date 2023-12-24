@@ -1,9 +1,9 @@
 .contact-us {
-    background-color:  #FFF;
+    background-color: #FFF;
     padding: 0 0 140px 0;
 }
 
-.contact-us-form{
+.contact-us-form {
     display: flex;
     gap: 100px;
     flex-direction: row;
@@ -15,9 +15,11 @@ label.footer-form-label {
     font-weight: 400;
     line-height: 24px;
 }
+
 .contact-us-box {
     gap: 5px;
 }
+
 .contact-us-inner-wrap {
     display: flex;
     flex-direction: column;
@@ -38,65 +40,75 @@ label.footer-form-label {
 textarea.contact-us-form-input {
     height: 303px;
 }
-.contact-us-form-btn{
+
+.contact-us-form-btn {
     width: 377px;
     padding: 20px 40px;
 }
-.contact-us-privacy-policy-label > span{
+
+.contact-us-privacy-policy-label > span {
     color: #777779;
     font-size: 13px;
     font-weight: 300;
     text-decoration-line: underline;
 }
-.contact-us-inner-wrap-right{
+
+.contact-us-inner-wrap-right {
     gap: 20px;
 }
 
 
-@media screen and (min-width: 320px){
+@media screen and (min-width: 320px) {
     .contact-us-form {
         display: flex;
         gap: 23px;
         flex-direction: column;
     }
+
     .contact-us-inner-wrap {
         display: flex;
         flex-direction: column;
         gap: 10px;
         width: 100%
     }
+
     .contact-us-form-btn {
         width: 100%;
         padding: 20px 40px;
         border-radius: 5px;
     }
+
     .contact-us {
         padding: 0 0 85px 0;
     }
 }
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .contact-us-inner-wrap {
         gap: 30px;
     }
+
     .contact-us-form-btn {
         width: 377px;
     }
+
     .contact-us {
         padding: 0 0 200px 0;
     }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1440px) {
     .contact-us-form {
         display: flex;
         gap: 99px;
         flex-direction: row;
     }
+
     .contact-us-inner-wrap {
         gap: 30px;
         width: 540px;
     }
+
     textarea.contact-us-form-input {
         height: 290px;
     }
