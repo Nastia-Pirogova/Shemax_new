@@ -124,3 +124,67 @@ button.plus.plus-btn,.minus.minus-btn {
 .characteristic-cover{
     width: 100%;
 }
+@media screen and (min-width: 320px){
+    .product-card-inner {
+        display: flex;
+        gap: 70px;
+        flex-direction: column;
+    }
+
+    .characteristic-wrap-close {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+    .product-card-slider > img{
+        width: 100%;
+    }
+    .product-card-inf-btns {
+        margin: 16px 0 0 0;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .product-card-inf-btn {
+        padding: 20px 90px;
+    }
+    .characteristic {
+        padding: 50px 0 0 0;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .product-card-inner {
+        display: flex;
+        gap: 45px;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .product-card-slider > img {
+        width: 300px;
+    }
+    .product-card-inf {
+        width: 375px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .product-card-inner {
+        gap: 120px;
+    }
+    .product-card-inf {
+        width: 100%;
+    }
+    .product-card-slider > img {
+        width: 732.25px;
+    }
+    .characteristic-wrap-close {
+        display: flex;
+        gap: 70px;
+        flex-direction: row;
+    }
+    .product-card-inf-btns {
+        margin: 100px 0 0 0;
+        gap: 20px;
+        flex-direction: row;
+    }
+}
