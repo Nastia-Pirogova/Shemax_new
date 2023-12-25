@@ -127,7 +127,8 @@
 }
 
 .checkout__form-your-details-field-input{
-    gap: 5px;
+    padding: 15px;
+    outline: none;
     height: 60px;
     border: 1px solid #494949;
     border-radius: 3px;
@@ -300,8 +301,7 @@
     line-height: 24px;
     margin-top: 40px;
     width: 100%;
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding: 18px 50px;
 }
 
 .checkout__form-total-submit-descr{
@@ -359,7 +359,6 @@
 }
 
 .checkout__item{
-    margin-bottom: 30px;
     display: flex;
 }
 
@@ -459,7 +458,7 @@
     align-items: center;
     background-color: #D9D9D9 ;
     border-radius: 5px;
-    padding: 25px 0;
+    padding: 25px 50px;
     width: 100%;
     color:  #2C2E38;
     text-align: center;
@@ -630,9 +629,387 @@
 
     .checkout-mobile-title{
         display: block;
+        margin-top: 40px;
     }
 
     .checkout__basket-items{
         border: none;
+        margin-top: 40px;
+    }
+
+    .checkout__column-2{
+        width: 345px;
+    }
+
+    .checkout__basket-items-inner{
+        padding: 0;
+    }
+
+    .checkout__total{
+        width: 345px;
+    }
+
+    .checkout__item{
+        align-items: center;
+
+    }
+
+    .checkout__item-title{
+        display: none;
+
+    }
+    .checkout__item-price-text{
+        display: none;
+    }
+
+    .checkout__item-price{
+        padding: 0;
+        justify-content: flex-end;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: capitalize;
+
+    }
+
+    .checkout__item-price-descr{
+        text-align: left;
+    }
+
+    .checkout__delivery-details{
+        padding-top: 40px;
+    }
+
+    .checkout__edit-delivery-details{
+        margin: 40px 0;
+
+    }
+
+    .checkout__quantity{
+        display: none;
+    }
+
+    .checkout__subtotal{
+        display: none;
+    }
+
+    .checkout__subtotal-descr-mobile{
+        display: none;
+    }
+
+    .checkout__items-list {
+        border-bottom: none;
+    }
+
+    .checkout__edit-basket{
+        margin-top: 0;
+    }
+
+    .checkout__total{
+        margin-top: 40px;
+        margin-bottom: 61px;
+    }
+
+    .checkout__title{
+        display: none;
+    }
+
+    .checkout__form-your-details {
+        margin-top: 0;
+    }
+
+    .checkout__column-1{
+        width: 345px;
+    }
+
+    .checkout__form-total-right {
+        width: 263px;
+    }
+
+    .checkout__form-your-details{
+        padding: 40px 20px 40px 20px;
+    }
+
+    .checkout__form-delivery {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .checkout__form-payment {
+        padding: 40px 20px 40px 20px;
+    }
+
+    .checkout__form-card-info {
+        width: 303px;
+    }
+
+    .checkout__form-card-input {
+        width: 145px;
+    }
+
+    .checkout__form-total-right{
+        width: 303px;
+    }
+
+    .checkout__item-1{
+        background-color: #F9F9F9;
+        border: 1px solid #DFDFDF;
+        padding: 16px;
+        margin-bottom: 40px;
+    }
+
+    .checkout__item-title-1{
+        margin-top: 36px;
+        color:  #2C2E38;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .checkout__title{
+        display: none;
+    }
+
+    .checkout-mobile-title{
+        display: block;
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .checkout__column-2{
+        margin-top: 40px;
+        width: 584px;
+        padding: 0 0;
+
+    }
+
+    .checkout__items-list{
+        background-color: #F9F9F9;
+
+    }
+
+    .checkout__item-1{
+        border: none;
+        margin-bottom: 30px;
+    }
+
+    .checkout__basket-items{
+        margin-top: 0;
+    }
+
+    .checkout__item-title-1{
+        display: none;
+    }
+
+    .checkout__item-title{
+        display: block;
+    }
+
+    .checkout__item-price-text{
+        display: block;
+    }
+
+    .checkout__item-price-and-descr{
+        margin-top: 20px;
+    }
+
+    .checkout__item-price{
+        justify-content: space-between;
+    }
+    .checkout__item-info{
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .checkout__item{
+        align-items: unset;
+    }
+    .checkout__quantity{
+        display: flex;
+    }
+    .checkout__subtotal{
+        display: flex;
+    }
+    .checkout__subtotal-descr-mobile{
+        display: block;
+    }
+
+    .checkout__basket-items{
+        border: 1px solid #DFDFDF;
+        background-color: #F9F9F9;
+        margin-bottom: 40px;
+        padding: 40px 25px;
+    }
+
+    .checkout__quantity{
+        padding-top: 30px;
+        border-top: 1px solid #DFDFDF;
+    }
+
+    .checkout__edit-basket-link{
+        width: 438px;
+    }
+
+    .checkout__delivery-details{
+        width: 438px;
+    }
+
+    .checkout__edit-delivery-details{
+        width: 438px;
+    }
+
+    .checkout__total{
+        width: 438px;
+    }
+
+    .checkout__form-your-details{
+        width: 438px;
+    }
+
+    .checkout__title{
+        display: none;
+    }
+
+    .checkout__form-delivery{
+        width: 438px;
+    }
+
+    .checkout__form-payment{
+        width: 438px;
+    }
+
+    .checkout__form-total-right{
+        width: 396px;
+    }
+
+    .checkout__form-card-info{
+        width: 230px;
+    }
+
+    .checkout__form-card-input{
+        width: 110px;
+    }
+
+    .checkout__back-to-shopping-div{
+        margin-top: 72px;
+    }
+
+    .checkout__item-price-descr {
+        text-align: right;
+        color:  #2C2E38;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: normal;
+    }
+    .checkout__item-price-value{
+        color: #2C2E38;
+
+        text-align: right;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px; /* 150% */
+        text-transform: capitalize;
+    }
+
+    .checkout__item-price-text{
+        color: #2C2E38;
+
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    .checkout__title{
+        display: none;
+    }
+
+    .checkout-mobile-title{
+        display: block;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .checkout__title{
+        display: block;
+    }
+
+    .checkout-mobile-title{
+        display: none;
+    }
+
+    .checkout__container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .checkout__column-1{
+        width: 825px;
+    }
+    .checkout__column-2{
+        margin-top: 0;
+
+    }
+
+    .checkout__column-2-title{
+        display: flex;
+    }
+
+    .checkout__form-your-details{
+        width: 825px;
+        margin-top: 50px;
+        padding: 58px 40px 97px 40px;
+    }
+
+    .checkout__form-delivery{
+        width: 825px;
+        padding: 67px 40px 150px 40px;
+
+    }
+
+    .checkout__form-payment{
+        width: 825px;
+        padding: 50px 40px 92px 40px;
+    }
+
+    .checkout__basket-items{
+        margin-top: 50px;
+    }
+
+    .checkout__basket-items {
+        border: 1px solid #DFDFDF;
+        background-color: #F4F4F4;
+        margin-bottom: 40px;
+        padding: 40px 25px 5px 25px
+    }
+
+    .checkout__items-list {
+        background-color: #F4F4F4;
+    }
+
+    .checkout__item-1{
+        background-color: #F4F4F4;
+        padding: 0;
+    }
+
+    .checkout__form-total-right{
+        width: 425px;
+    }
+
+    .checkout__back-to-shopping-div{
+        margin-top: 12px;
+    }
+}
+
+
+
+
